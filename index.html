@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <title>Notificações</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Atualizar Notificação</h1>
+        <form id="notificacao-form">
+            <label for="titulo">Título:</label>
+            <input type="text" id="titulo" name="titulo" required><br>
+
+            <label for="corpo">Corpo:</label>
+            <textarea id="corpo" name="corpo" rows="4" required></textarea><br>
+
+            <button id="btn" type="submit">Enviar</button>
+        </form>
+    </div>
+
+    <script src="renderer.js"></script>
+</body>
+
+</html>

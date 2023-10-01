@@ -1,0 +1,26 @@
+{
+  "name": "my-electron-app",
+  "version": "1.0.0",
+  "description": "Hello World",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron main.js",
+    "reload": "electron-reload main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Yuri",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^26.2.4"
+  },
+  "dependencies": {
+    "@types/express": "^4.17.18",
+    "@types/node": "^20.8.0",
+    "axios": "^1.5.1",
+    "electron-reload": "^2.0.0-alpha.1",
+    "express": "^4.18.2",
+    "nodemon": "^3.0.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  }
+}
